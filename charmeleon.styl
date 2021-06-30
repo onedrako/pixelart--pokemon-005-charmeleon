@@ -1,0 +1,501 @@
+border = #3b3b3b
+body1 = #ff9a00
+body2 = #f0701a 
+point = #5e5e5e
+body3 = #ffff00
+body4 = #cfcf00
+fire1 = #e14401
+fire2 = #ffff00
+patas = #e6e6e6
+
+
+pintas(column, column2, row, row2, color)
+    grid-column-start: column
+    grid-column-end: column2 
+    grid-row: row
+    grid-row-end: row2
+    background-color: color
+
+main
+    width: 100vw;
+    height: 100vh;
+
+.pokemon
+    display grid
+    grid-template-columns: repeat(35, 35px)
+    grid-template-rows: repeat(35, 35px)
+    justify-content: center
+    align-content: center
+
+.one
+    pintas(22, 23, 2, 3, border)
+
+.two
+    pintas(21, 22, 3, 4, border)
+
+.three
+    pintas(22, 23, 3 , 4, fire1)
+
+.four
+    pintas(23, 24, 3, 5, border)
+
+.five
+    pintas(15, 17, 3, 4, border)
+
+.six
+    pintas(14, 15, 4, 5, border)
+
+.seven
+    pintas(15, 17, 4, 5, body1)
+
+.eight
+    pintas(17, 18, 4, 6, border)
+
+.nine
+    pintas(20, 21, 4, 8, border)
+
+.ten
+    pintas(21, 23, 4, 5, fire1)
+
+.eleven
+    pintas(13, 14, 5, 6, border)
+
+.twelve
+    pintas(14, 16, 5, 6, body1)
+
+.thirteen
+    pintas(16, 17, 5, 6, body2)
+
+.fourteen
+    pintas(21, 22, 5, 8, fire1)
+
+.fifteen
+    pintas(22, 23, 5, 7, body1)
+
+.sixteen
+    pintas(23, 24, 5, 7, fire1)
+
+.seventeen
+    pintas(24, 25, 5, 7, border)
+
+.eighteen
+    pintas(11, 13, 6, 7, border)
+
+.nineteen
+    pintas(13, 14, 6, 7, point)
+
+.twenty
+    pintas(14, 15, 6, 7, body1)
+
+.twenty-one
+    pintas(15, 16, 6, 7, body2)
+
+.twenty-two
+    pintas(16, 17, 6, 8, border)
+
+.twenty-three
+    pintas(22, 23, 7, 9, fire2)
+
+.twenty-four
+    pintas(23, 24, 7, 8, border)
+
+.twenty-five
+    pintas(10, 11, 7, 8, border)
+
+.twenty-six
+    pintas(11, 12, 7, 8, body1)
+
+.twenty-seven
+    pintas(12, 13, 7, 8, point)
+
+.twenty-eight
+    pintas(13, 15, 7, 8, body1)
+
+.twenty-nine
+    pintas(15, 16, 7, 8, point)
+
+.thirty
+    pintas(9, 10, 8, 10, border)
+
+.thirty-one
+    pintas(10, 14, 8, 9, body1)
+
+.thirty-two
+    pintas(14, 17, 8, 9, body2)
+
+.thirty-three
+    pintas(17, 18, 8, 9, border)
+
+.thirty-four
+    pintas(21, 22, 8, 9, border)
+
+.thirty-five
+    pintas(23, 24, 8, 9, body1)
+
+.thirty-six
+    pintas(24, 26, 8, 9, border)
+
+.thirty-seven
+    pintas(10, 17, 9, 10, body1)
+
+.thirty-eight
+    pintas(17, 18, 9, 11, body2)
+
+.thirty-nine
+    pintas(18, 19, 9, 11, border)
+
+.forty
+    pintas(22, 23, 9, 10, border)
+
+.forty-one
+    pintas(23, 25, 9, 10, body1)
+
+.forty-two
+    pintas(25, 26, 9, 10, point)
+
+.forty-three
+    pintas(26, 27, 9, 10, border)
+
+.forty-four
+    pintas(8, 9, 10, 11, border)
+
+.forty-five
+    pintas(9, 11, 10, 11, body1)
+
+.forty-six
+    pintas(11, 12, 10, 12, body2)
+
+.forty-seven
+    pintas(12, 13, 10, 12, body1)
+
+
+.forty-eight
+    pintas(13, 14, 10, 11, body1)
+
+.forty-nine
+    pintas(14, 15, 10, 11, border)
+
+.fifty
+    pintas(15, 17, 10, 11, body1)
+
+.fifty-one
+    pintas(23, 24, 10, 11, border)
+
+.fifty-two
+    pintas(24, 26, 10, 11, body1)
+
+.fifty-three
+    pintas(26, 27, 10, 11, body2)
+
+.fifty-four
+    pintas(27, 28, 10, 11, border)
+
+.fifty-five
+    pintas(7, 8, 11, 13, border)
+
+.fifty-six
+    pintas(8, 11, 11, 12, body1)
+
+.fifty-seven
+    pintas(13, 14, 11, 13, border)
+
+.fifty-eight
+    pintas(15, 16, 11, 12, body1)
+
+.fifty-nine
+    pintas(16, 18, 11, 12, body2)
+
+.sixty-one
+    pintas(18, 19, 11, 12, point)
+
+.sixty-two
+    pintas(19, 20, 11, 12, border)
+
+.sixty-three
+    pintas(24, 25, 11, 13, border)
+
+.sixty-four
+    pintas(25, 27, 11, 13, body1)
+
+.sixty-five
+    pintas(27, 28, 11, 13, body2)
+
+.sixty-six
+    pintas(28, 29, 11, 13, border)
+
+.sixty-seven
+    pintas(8, 9, 12, 13, body2)
+
+.sixty-eight
+    pintas(9, 12, 12, 13, body1)
+
+.sixty-nine
+    pintas(12, 13, 12, 13, point)
+
+.seventy
+    pintas(15, 16, 12, 13, point)
+
+.seventy-one
+    pintas(16, 17, 12, 13, body2)
+
+.seventy-two
+    pintas(17, 18, 12, 13, point)
+
+.seventy-three
+    pintas(18, 20, 12, 14, body1)
+
+.seventy-four
+    pintas(20, 22, 12, 13, border)
+
+.seventy-five
+    pintas(8, 9, 13, 14, border)
+
+.seventy-six
+    pintas(9, 10, 13, 14, body1)
+
+.seventy-seven
+    pintas(10, 11, 13, 14, body2)
+
+.seventy-eight
+    pintas(11, 14, 13, 14, body1)
+
+.seventy-nine
+    pintas(14, 15, 13, 14, body2)
+
+.eighty
+    pintas(15, 16, 13, 14, border)
+
+.eighty-one
+    pintas(16, 18, 13, 14, body2)
+
+.eighty-two
+    pintas(20, 21, 13, 16, body1)
+
+.eighty-three
+    pintas(21, 22, 13, 15, body2)
+
+.eighty-four
+    pintas(22, 24, 13, 14, border)
+
+.eighty-five
+    pintas(24, 25, 13, 14, body2)
+
+.eighty-six
+    pintas(25, 26, 13, 14, body1)
+
+.eighty-seven
+    pintas(26, 28, 13, 14, body2)
+
+.eighty-eight
+    pintas(28, 29, 13, 15, point)
+
+.eighty-nine
+    pintas(9, 11, 14, 15, border)
+
+.ninety
+    pintas(11, 13, 14, 15, body2)
+
+.ninety-one
+    pintas(13, 14, 14, 15, point)
+
+.ninety-two
+    pintas(14, 15, 14, 17, border)
+
+.ninety-three
+    pintas(15, 19, 14, 15, body2)
+
+.ninety-four
+    pintas(19, 20, 14, 15, point)
+
+.ninety-five
+    pintas(22, 23, 14, 15, body2)
+
+.ninety-six
+    pintas(23, 24, 14, 15, point)
+
+.ninety-seven
+    pintas(24, 27, 14, 16, body2)
+
+.ninety-eight
+    pintas(27, 28, 14, 16, point)
+
+.ninety-nine
+    pintas(8, 9, 15, 16, point)
+
+.one-hundred
+    pintas(9, 11, 15, 17, body2)
+
+.one-hundred-one
+    pintas(11, 14, 15, 16, border)
+
+.one-hundred-two
+    pintas(15, 17, 15, 17, body3)
+
+.one-hundred-three
+    pintas(17, 19, 15, 16, body2)
+
+.one-hundred-four
+    pintas(19, 20, 15, 16, border)
+
+.one-hundred-five
+    pintas(21, 22, 15, 16, point)
+
+.one-hundred-six
+    pintas(22, 23, 15, 21, body2)
+
+.one-hundred-seven
+    pintas(23, 24, 15, 19, body2)
+
+.one-hundred-eight
+    pintas(24, 25, 16, 20, point)
+
+.one-hundred-nine
+    pintas(7, 8, 16, 18, point)
+
+.one-hundred-ten
+    pintas(11, 12, 16, 17, point)
+
+.one-hundred-eleven
+    pintas(17, 18, 16, 17, body3)
+
+.one-hundred-twelve
+    pintas(18, 19, 16, 17, border)
+
+.one-hundred-thirteen
+    pintas(19, 20, 16, 17, patas)
+
+.one-hundred-fourteen
+    pintas(20, 21, 16, 18, body2)
+
+.one-hundred-fifteen
+    pintas(21, 22, 16, 18, border)
+
+.one-hundred-sixteen
+    pintas(25, 26, 16, 17, body2)
+
+.one-hundred-twenty-one
+    pintas(26, 27, 16, 17, point)
+
+.one-hundred-seventeen
+    pintas(8, 9, 17, 18, body2)
+
+.one-hundred-twenty-two
+    pintas(8, 9, 16, 17, patas)
+
+.one-hundred-eighteen
+    pintas(9, 10, 17, 18, patas)
+
+.one-hundred-nineteen
+    pintas(10, 11, 17, 18, point)
+
+.one-hundred-twenty
+    pintas(15, 16, 17, 18, border)
+
+.one-hundred-twenty-three
+    pintas(16, 17, 17, 18, body3)
+
+.one-hundred-twenty-four
+    pintas(17, 18, 17, 19, border)
+
+.one-hundred-twenty-five
+    pintas(18, 20, 17, 18, body2)
+
+.one-hundred-twenty-six
+    pintas(25, 26, 17, 18, point)
+
+.one-hundred-twenty-seven
+    pintas(8, 10, 18, 19, point)
+
+.one-hundred-twenty-eight
+    pintas(14, 16, 18, 19, point)
+
+.one-hundred-twenty-nine
+    pintas(16, 17, 18, 19, body4)
+
+.one-hundred-thirty-one
+    pintas(18, 19, 18, 19, patas)
+
+.one-hundred-thirty-two 
+    pintas(19, 20, 18, 19,body2)
+
+.one-hundred-thirty-three 
+    pintas(20, 21, 18, 19, border)
+
+.one-hundred-thirty-four
+    pintas(21, 22, 18, 23, body2)
+
+.one-hundred-thirty-five
+    pintas(13, 14, 19, 20, point)
+
+.one-hundred-thirty-six 
+    pintas(14, 15, 19, 20, patas)
+
+.one-hundred-thirty-seven 
+    pintas(15, 16, 19, 20, body2)
+
+.one-hundred-thirty-eight 
+    pintas(16, 17, 19, 20, point)
+
+.one-hundred-thirty-nine
+    pintas(17, 18, 19, 20, body4)
+
+.one-hundred-forty
+    pintas(18, 20, 19, 20, border)
+.one-hundred-forty-one
+    pintas(20, 21, 19, 21, body2)
+.one-hundred-forty-two 
+    pintas(23, 24, 19, 23, point)
+
+.one-hundred-forty-three     
+    pintas(14, 19, 20, 21, point)
+
+.one-hundred-forty-four
+    pintas(19, 21, 21, 22, point)
+
+
+.one-hundred-forty-five
+    pintas(22, 23, 21, 22, point)
+
+.one-hundred-forty-six 
+    pintas(19, 20, 22, 23, point)
+
+.one-hundred-forty-seven 
+    pintas(20, 23, 23, 24, point)
+
+
+.one-hundred-forty-eight 
+    pintas(19, 20, 20, 21, body2)
+
+
+.one-hundred-forty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-fifty
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-one
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-four
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-five
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-six 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-seven 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-eight 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-sixty
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-one
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-three 
+    pintas(1, 1, 1, 1, white)
